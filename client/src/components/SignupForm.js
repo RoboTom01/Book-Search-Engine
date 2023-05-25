@@ -49,6 +49,8 @@ const SignupForm = () => {
     });
   };
 
+
+// form unchanged
   return (
     <>
       {/* This is needed for the validation functionality above */}

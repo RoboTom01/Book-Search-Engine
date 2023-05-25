@@ -23,9 +23,9 @@ const SavedBooks = () => {
 
   if(!userData?.username) {
     return (
-      <h4>
-        You need to be logged in to see this page. Use the navigation links above to sign up or log in!
-      </h4>
+      <h3>
+        Please log in or signup.
+      </h3>
     );
   }
 
@@ -60,7 +60,7 @@ const SavedBooks = () => {
     return <h2>LOADING...</h2>;
   }
 
-
+// form unchanged
   return (
     <>
       <div fluid className='text-light bg-dark p-5'>

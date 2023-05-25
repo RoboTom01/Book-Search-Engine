@@ -55,3 +55,6 @@ export const deleteBook = (bookId, token) => {
 export const searchGoogleBooks = (query) => {
   return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
 };
+
+
+// you’ll take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. does this mean remove the google search??

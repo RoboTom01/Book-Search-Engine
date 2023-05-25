@@ -75,3 +75,5 @@ const AppNavbar = () => {
 };
 
 export default AppNavbar;
+
+// no mutations used

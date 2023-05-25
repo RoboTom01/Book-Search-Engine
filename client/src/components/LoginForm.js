@@ -1,6 +1,7 @@
 // see SignupForm.js for comments
-// import mutations
+// import mutation and query
 // use correct mutation for comp
+// import hooks
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 import Auth from '../utils/auth';
